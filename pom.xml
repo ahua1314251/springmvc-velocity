@@ -110,4 +110,11 @@
             </plugin>-->
         </plugins>
     </build>
+<distributionManagement>
+  <repository>
+    <id>github</id>       
+    <name>Releases</name>
+    <url>https://maven.pkg.github.com/ahua1314251/springmvc-velocity</url> 
+  </repository>
+</distributionManagement>   
 </project>
