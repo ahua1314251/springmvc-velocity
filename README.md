@@ -106,6 +106,7 @@ pom.xml 添加
 
 
 重点引入  其他根据自己需要调整
+
 important   other jar help yourself
 
 ``` xml
@@ -129,7 +130,8 @@ important   other jar help yourself
         </dependency>
 ```
 
-不使用maven 也可直接下载 jar包
-if you do not use maven,you can download jar directly. jar link
+  不使用maven 也可直接下载 jar包
+  
+  if you do not use maven,you can download jar directly. jar link
 
-https://github.com/ahua1314251/maven/blob/master/repo/org/winker/springmvc-velocity2.5.5.jar
+  https://github.com/ahua1314251/maven/blob/master/repo/org/winker/springmvc-velocity2.5.5.jar
