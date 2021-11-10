@@ -1,4 +1,4 @@
-# springmvc-velocity
+# springmvc-velocity  解决高版本springboot不兼容
 配合新版本springboot使用 解决高版本springmvc不支持velocity模板语言问题
 最高支持 spring 2.5.5 及以上版本
 
@@ -103,7 +103,8 @@ pom.xml 添加
 
 
 重点引入  其他根据自己需要调整
-```
+
+``` xml
         <repositories>
             <repository>
                 <id>github</id>
@@ -123,3 +124,7 @@ pom.xml 添加
             <version>2.5.5</version>
         </dependency>
 ```
+
+不使用maven 也可直接下载 jar包
+
+https://github.com/ahua1314251/maven/blob/master/repo/org/winker/springmvc-velocity2.5.5.jar
