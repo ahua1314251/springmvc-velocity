@@ -107,7 +107,7 @@ pom.xml 添加
 
 重点引入  其他根据自己需要调整
 
-important   other jar help yourself
+important dependency , other jar help yourself
 
 ``` xml
         <repositories>
